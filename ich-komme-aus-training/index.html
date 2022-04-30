@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ich komme aus ...</title>
+    <script type="text/javascript" src="ich-komme.js"></script>
+    <link rel="stylesheet" type="text/css" href="styling.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap');
+    </style>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <header><h1>Woher kommst du? Откуда ты родом?</h1></header>
+    <h2 id="punkte">Баллы: 0/0</h2>
+    <div id="training">
+        <h1 id="ich-komme-txt">Ich komme ... </h1>
+        <p> <button onclick="Smth_cliked('aus')">aus</button>
+        <button onclick="Smth_cliked('aus der')">aus der</button>
+        <button onclick="Smth_cliked('aus dem')">aus dem</button>
+        <button onclick="Smth_cliked('aus den')">aus den</button></p>
+    </div>
+    <div id="right_wrong">
+        <h1 id="result"></h1>
+        <h2 id="ich-komme-txt-ans"></h2>
+        <div id="dublicate">
+        <h2>Напечатай эту строчку сюда: </h2>
+        <textarea oninput="Answer_typed(this.value)">Ich komme ...</textarea>
+        </div>
+    </div>
+    <table id="table">
+        <tr>
+            <td style="width:200px">Ich komme ...</td>
+            <td style="width:350px">das Land</td>
+        </tr>
+    </table>
+    <footer>
+        <h4>Если нужна подсказка используй ссылки <a href="https://docs.google.com/document/d/1c9DyOtZ01pDnT8saNkL8sOAsmtFFgGJXyUlscvYC4i8/edit?usp=sharing">для правил</a> и <a href="https://docs.google.com/document/d/1K_4SvOIs6sOfLlfkGh-aTIhODWf876azi02v94RzO9w/edit?usp=sharing">для повторения стран.</a></h4>
+    </footer>
+</body>
+</html>
