@@ -14,13 +14,14 @@
 button {
     padding: 1%;
     margin: .5%;
-    font-size: 20px;
+    font-size: 30px;
     background-color:rgb(216, 186, 255);
     border: none;
     border-radius: 10px;
 }
 
 #training{
+    height:50%;
     padding: 2%;
     margin: 2%;
     border-left: 30px solid rgb(213, 233, 255) !important;
@@ -30,6 +31,7 @@ button {
 }
 
 .right {
+    height:50%;
     padding: 2%;
     margin: 2%;
     border-left: 30px solid rgb(103, 255, 128)!important;
@@ -39,6 +41,7 @@ button {
 }
 
 .wrong {
+    height:50%;
     padding: 2%;
     margin: 2%;
     border-left: 30px solid rgb(255, 69, 69) !important;
