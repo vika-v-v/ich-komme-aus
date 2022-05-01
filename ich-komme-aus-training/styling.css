@@ -41,7 +41,7 @@ button {
 }
 
 .wrong {
-    min-height: 25vh;
+
     padding: 2%;
     margin: 2%;
     border-left: 30px solid rgb(255, 69, 69) !important;
